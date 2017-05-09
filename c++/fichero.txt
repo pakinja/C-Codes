@@ -1,0 +1,21 @@
+{{1, 1, 3, 13312}, {1, 2, 7, 13393}, {1, 3, 5, 18999}}
+{{2, 1, 8, 66962}, {2, 2, 6, 12901}, {2, 3, 8, 32862}}
+{{3, 1, 7, 41614}, {3, 2, 5, 61455}, {3, 3, 7, 75502}}
+{{4, 1, 7, 68611}, {4, 2, 7, 15513}, {4, 3, 3, 31933}}
+{{5, 1, 3, 51015}, {5, 2, 8, 27722}, {5, 3, 3, 50555}}
+{{6, 1, 2, 21665}, {6, 2, 2, 40999}, {6, 3, 6, 41725}}
+{{7, 1, 5, 21500}, {7, 2, 1, 32539}, {7, 3, 2, 20462}}
+
+En este fichero se muestran los datos de cada punto de venta.
+Es un arreglo de arreglos (vector de vectores).
+Cada renglon corresponde a un punto de venta.
+Cada vector de dimension 4 {v1,v2,v3,v4} representa:
+
+v1: numero de punto de venta
+
+v2: numero consecutivo (cadena de tiempo)
+
+v3: tiempo entre compras (dias)
+
+v4: ticket de venta (pesos)
+
